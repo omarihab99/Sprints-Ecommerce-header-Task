@@ -1,0 +1,155 @@
+/* Style the navigation bar */
+body{
+    width: 100%;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+nav {
+    background-color: #3c444c;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+nav a, .pages-dropdown{
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    text-decoration: none;
+    
+}
+
+/* Change the color of links on hover */
+nav a:hover, .pages-dropdown:hover{ 
+    background-color: #f9d238;
+    color: #3c444c;
+}
+
+/* Style the icon links */
+nav .icon {
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    color: #f9d238;
+}
+
+/* Style the icon links on hover */
+nav .icon:hover {
+    background-color: #f9d238;
+    color: #3c444c;
+}
+.pages-dropdown{
+    margin-top: 8px;
+}    
+.pages-dropbtn{
+    border: none;
+    outline: none; 
+    background-color: inherit;
+    color: white;
+    font-family: inherit;
+    text-decoration: none;
+    font-size: medium;
+}
+.pages-dropdown-content{
+    display: none;
+    z-index: 1;
+    position: absolute;
+    background-color: #3c444c;
+    margin-left: -10px;
+}
+.pages-dropdown-content a{
+    float: none;
+    color: #f9d238;
+    padding: 12px 8px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.pages-dropdown-content a:hover {
+    background-color: #f9d238;
+}
+.pages-dropdown-content:last-child a:hover{
+    margin-bottom: 3px;
+}
+.pages-dropdown:hover .pages-dropbtn {
+    color: black;
+}
+.pages-dropdown:hover .pages-dropdown-icon {
+    color: black;
+}
+.pages-dropdown:hover .pages-dropdown-content {
+    margin-top: 15px;
+    display: block;
+}
+
+/* Style the dropdown menu */
+.dropdown {
+    padding-left: 15px;
+    padding-right: 15px;
+    float: left;
+    overflow: hidden;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+    background-color: #f9d238;
+    width: 340px;
+}
+
+/* Style the dropdown button */
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: #3c444c;
+    padding: 14px 16px;
+    padding-left: 1px;
+    padding-right: 200px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+.dropdown .fa-bars {
+    margin-left: 20px;
+}
+/* Style the dropdown content */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    width: 340px;
+    z-index: 1;
+    background-color: #3c444c;
+    
+}
+
+/* Style the links inside the dropdown */
+.dropdown-content a {
+    float: none;
+    color: #f9d238;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+/* Change the color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #f9d238;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown-content:last-child a:hover{
+    margin-bottom: 3px;
+}
+.fav-count, .cart-count{
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 4px 5px 1px;
+    font-size: 12px;
+}
